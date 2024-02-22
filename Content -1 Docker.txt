@@ -1,0 +1,49 @@
+Docker solves the problem of environment replication .
+
+
+
+docker --version
+docker run -it ubuntu
+docker run -it BusyBox [-it means iteractive mode]
+Different OS we can use in docker run 
+Alpine Linux
+Ubuntu
+Debian
+CentOS
+Fedora
+Arch Linux
+BusyBox
+
+What is hub.docker.com ??
+It is like github where public containers are there.
+
+Docker --- containers and images
+
+images are like OS .. to run the images we need container.
+
+
+docker container ls -a
+docker container ls
+docker start [containername] // to start the container from terminal
+docker stop  [containername]
+docker exec [containername] ls
+docker exec it [containername] ls //we will be inside the container
+
+
+To check the docker images:
+docker -images
+docker run -it [imagename]
+
+port expose:
+docker run it -p 1025:1025 mailhog/mailhog
+
+
+
+
+
+
+
+
+
+
+
